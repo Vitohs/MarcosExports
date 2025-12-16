@@ -10,13 +10,13 @@
         class="video-bg"
       ></video>
     </section>
-    
+
     <section class="hero-section">
       <div class="container">
         <h1>Somos a Marcos Exports</h1>
         <p class="hero-subtitle">Sua solução completa em produtos florestais</p>
         <p class="hero-description">
-          Especializados na comercialização de tora de eucalipto e pinus, 
+          Especializados na comercialização de tora de eucalipto e pinus,
           produção de cavaco para celulose e biomassa para queima
         </p>
       </div>
@@ -59,13 +59,12 @@
 .video-banner {
   width: 100%;
   height: 80vh;
-  background-color: aquamarine;
   overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 
 .video-bg {
@@ -184,53 +183,53 @@
   .video-banner {
     height: 40vh;
   }
-  
+
   .hero-section {
     padding: 50px 0;
     min-height: auto;
   }
-  
+
   .hero-section h1 {
     font-size: 2.2rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1.2rem;
   }
-  
+
   .hero-description {
     font-size: 1rem;
   }
-  
+
   .services-section {
     padding: 50px 0;
   }
-  
+
   .services-section h2 {
     font-size: 2rem;
   }
-  
+
   .products-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
+
   .product-card {
     padding: 25px;
   }
-  
+
   .market-section {
     padding: 50px 0;
   }
-  
+
   .market-section h2 {
     font-size: 2rem;
   }
-  
+
   .market-section p {
     font-size: 1.1rem;
   }
-  
+
   .container {
     padding: 0 15px;
   }

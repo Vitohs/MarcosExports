@@ -9,13 +9,22 @@
         <section class="services-section">
             <div class="container">
               <div class="cavaco">
-                <h2 class="cavaco-title">Produção de cavaco</h2>
-                <p class="cavaco-subtitle">
-                    Fornecemos cavacos de eucalipto com granulometria precisa e controle rigoroso de qualidade. Ideal para biomassa, papel e celulose, atendendo às especificações técnicas mais exigentes do mercado.
-                </p>
-                <img class="imgCavaco" src="../assets/cavaco.svg">
+                    <h2 class="cavaco-title">Produção de Cavaco Premium</h2>
+                    <p class="cavaco-subtitle">
+                        Cavacos de eucalipto de alta qualidade para geração de energia e biomassa. Produto versátil com granulometria controlada, ideal para fornos industriais, caldeiras e produção de energia térmica sustentável.
+                    </p>
+                    <img class="imgCavaco" src="../assets/cavaco.svg">
+                </div>
             </div>
-          </div>
+             <div class="container">
+              <div class="cavaco-celulose">
+                    <h2 class="cavaco-celulose-title">Produção de Cavaco Premium para celulose</h2>
+                    <p class="cavaco-celulose-subtitle">
+                        Cavacos de eucalipto com especificações técnicas rigorosas para a indústria de celulose e papel. Granulometria uniforme (15-30mm), baixo teor de casca, umidade controlada e ausência de impurezas, atendendo aos mais altos padrões de qualidade do setor.
+                    </p>
+                    <img class="imgCavaco" src="../assets/cavaco-celulose.webp">
+                </div>
+            </div>
             <div class="container">
                 <div class="toras">
                  <h2 class="toras-title">Comércio de toras de Eucalipto</h2>
@@ -103,28 +112,64 @@
         padding: 80px 0;
         min-height: auto;
     }
-    .cavaco, .toras, .pinus {
+    .cavaco, .cavaco-celulose, .toras, .pinus {
         background: white;
         border-radius: 16px;
         padding: 40px;
         margin-bottom: 40px;
         box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transition: all 0.3s ease;
         position: relative;
         overflow: hidden;
     }
-    .cavaco:hover, .toras:hover, .pinus:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 16px 48px rgba(0,0,0,0.15);
+    
+    .cavaco {
+        border: 3px solid rgba(249, 115, 22, 0.3);
     }
-    .cavaco-title, .toras-title, .pinus-title {
+    
+    .cavaco-celulose {
+        border: 3px solid rgba(20, 184, 166, 0.3);
+    }
+    
+    .toras {
+        border: 3px solid rgba(22, 163, 74, 0.3);
+    }
+    
+    .pinus {
+        border: 3px solid rgba(146, 64, 14, 0.3);
+    }
+    
+    .cavaco:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 48px rgba(249, 115, 22, 0.2);
+        border-left-color: rgba(249, 115, 22, 0.8);
+    }
+    
+    .cavaco-celulose:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 48px rgba(20, 184, 166, 0.2);
+        border-left-color: rgba(20, 184, 166, 0.8);
+    }
+    
+    .toras:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 48px rgba(22, 163, 74, 0.2);
+        border-left-color: rgba(22, 163, 74, 0.8);
+    }
+    
+    .pinus:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 48px rgba(146, 64, 14, 0.2);
+        border-left-color: rgba(146, 64, 14, 0.8);
+    }
+    .cavaco-title, .cavaco-celulose-title, .toras-title, .pinus-title {
         font-size: 2.5rem;
         margin-bottom: 20px;
         color: #003566;
         font-weight: 700;
         line-height: 1.2;
     }
-    .cavaco-subtitle, .toras-subtitle, .pinus-subtitle {
+    .cavaco-subtitle, .cavaco-celulose-subtitle, .toras-subtitle, .pinus-subtitle {
         font-size: 1.2rem;
         color: #5a6c7d;
         margin-bottom: 30px;
@@ -152,7 +197,7 @@
             font-size: 1.3rem;
         }
 
-        .cavaco-title, .toras-title, .pinus-title {
+        .cavaco-title, .cavaco-celulose-title, .toras-title, .pinus-title {
             font-size: 2.2rem;
         }
 
@@ -160,6 +205,7 @@
             padding: 30px 15px;
         }
     }
+
     @media (max-width: 768px) {
         .banner {
             height: 70vh;
@@ -181,16 +227,16 @@
         .container {
             padding: 20px 10px;
         }
-        .cavaco, .toras, .pinus {
+        .cavaco, .cavaco-celulose, .toras, .pinus {
             padding: 30px 20px;
             margin-bottom: 30px;
             border-radius: 12px;
         }
-        .cavaco-title, .toras-title, .pinus-title {
+        .cavaco-title, .cavaco-celulose-title, .toras-title, .pinus-title {
             font-size: 1.8rem;
             margin-bottom: 15px;
         }
-        .cavaco-subtitle, .toras-subtitle, .pinus-subtitle {
+        .cavaco-subtitle, .cavaco-celulose-subtitle, .toras-subtitle, .pinus-subtitle {
             font-size: 1rem;
             margin-bottom: 20px;
             line-height: 1.5;
@@ -201,7 +247,6 @@
         }
     }
 
-    /* Extra Small Mobile */
     @media (max-width: 480px) {
         .banner {
             height: 60vh;
@@ -215,15 +260,15 @@
             font-size: 0.95rem;
         }
 
-        .cavaco, .toras, .pinus {
+        .cavaco, .cavaco-celulose, .toras, .pinus {
             padding: 25px 15px;
         }
 
-        .cavaco-title, .toras-title, .pinus-title {
+        .cavaco-title, .cavaco-celulose-title, .toras-title, .pinus-title {
             font-size: 1.5rem;
         }
 
-        .cavaco-subtitle, .toras-subtitle, .pinus-subtitle {
+        .cavaco-subtitle, .cavaco-celulose-subtitle, .toras-subtitle, .pinus-subtitle {
             font-size: 0.9rem;
         }
 

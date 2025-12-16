@@ -11,8 +11,8 @@
                 <div class="company-intro">
                     <h2 class="section-title">Quem Somos</h2>
                     <p class="intro-text">
-                        Somos uma empresa especializada no setor florestal, com foco na comercialização sustentável 
-                        de produtos madeireiros de alta qualidade. Nossa experiência e compromisso com a excelência 
+                        Somos uma empresa especializada no setor florestal, com foco na comercialização sustentável
+                        de produtos madeireiros de alta qualidade. Nossa experiência e compromisso com a excelência
                         nos posicionam como referência no mercado nacional e internacional.
                     </p>
                 </div>
@@ -20,19 +20,19 @@
                 <div class="services-grid">
                     <div class="service-card">
                         <h3>Toras de Eucalipto</h3>
-                        <p>Comercialização de toras de eucalipto de diferentes diâmetros e comprimentos, 
+                        <p>Comercialização de toras de eucalipto de diferentes diâmetros e comprimentos,
                         provenientes de florestas manejadas de forma sustentável.</p>
                     </div>
 
                     <div class="service-card">
                         <h3>Toras de Pinus</h3>
-                        <p>Fornecimento de toras de pinus de reflorestamento com qualidade superior 
+                        <p>Fornecimento de toras de pinus de reflorestamento com qualidade superior
                         para diversos segmentos da indústria madeireira.</p>
                     </div>
 
                     <div class="service-card">
                         <h3>Cavaco & Biomassa</h3>
-                        <p>Produção especializada de cavaco para celulose e biomassa para queima, 
+                        <p>Produção especializada de cavaco para celulose e biomassa para queima,
                         atendendo às especificações técnicas mais rigorosas.</p>
                     </div>
                 </div>
@@ -42,12 +42,12 @@
                     <div class="market-grid">
                         <div class="market-card">
                             <h4>Mercado Nacional</h4>
-                            <p>Atendemos todo o território brasileiro com logística eficiente 
+                            <p>Atendemos todo o território brasileiro com logística eficiente
                             e entrega pontual para nossos clientes.</p>
                         </div>
                         <div class="market-card">
                             <h4>Exportação</h4>
-                            <p>Exportamos através dos principais portos do país, levando 
+                            <p>Exportamos através dos principais portos do país, levando
                             a qualidade brasileira para mercados internacionais.</p>
                         </div>
                     </div>
@@ -79,14 +79,14 @@
                     <h2 class="section-title">Nosso Compromisso</h2>
                     <div class="commitment-content">
                         <p>
-                            Trabalhamos com o compromisso de fornecer produtos florestais de máxima qualidade, 
-                            respeitando o meio ambiente e contribuindo para o desenvolvimento sustentável do setor. 
-                            Nossa missão é ser o parceiro de confiança para empresas que buscam excelência 
+                            Trabalhamos com o compromisso de fornecer produtos florestais de máxima qualidade,
+                            respeitando o meio ambiente e contribuindo para o desenvolvimento sustentável do setor.
+                            Nossa missão é ser o parceiro de confiança para empresas que buscam excelência
                             em produtos madeireiros.
                         </p>
                         <p>
-                            Com uma logística eficiente e conhecimento profundo do mercado, garantimos 
-                            que nossos clientes recebam produtos que atendem às mais altas especificações técnicas, 
+                            Com uma logística eficiente e conhecimento profundo do mercado, garantimos
+                            que nossos clientes recebam produtos que atendem às mais altas especificações técnicas,
                             seja para o mercado interno ou para exportação.
                         </p>
                     </div>
@@ -185,16 +185,16 @@
         margin-bottom: 80px;
     }
     .service-card {
-        background: white;
+        background: linear-gradient(135deg, #1a472a 0%, #2d5016 100%);
         padding: 40px 30px;
         border-radius: 16px;
-        box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        box-shadow: 0 8px 32px rgba(26, 71, 42, 0.3);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .service-card:hover {
         transform: translateY(-8px);
-        box-shadow: 0 16px 48px rgba(0,0,0,0.15);
+        box-shadow: 0 16px 48px rgba(26, 71, 42, 0.4);
     }
     .icon {
         font-size: 3rem;
@@ -202,12 +202,12 @@
     }
     .service-card h3 {
         font-size: 1.8rem;
-        color: #2c3e50;
+        color: #ffffff;
         margin-bottom: 15px;
         font-weight: 600;
     }
     .service-card p {
-        color: #5a6c7d;
+        color: rgba(255, 255, 255, 0.9);
         line-height: 1.6;
         font-size: 1.1rem;
     }
@@ -221,7 +221,7 @@
         margin-top: 40px;
     }
     .market-card {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: #003566;
         color: white;
         padding: 30px;
         border-radius: 12px;
@@ -249,11 +249,13 @@
         background: white;
         padding: 30px 25px;
         border-radius: 12px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        transition: transform 0.3s ease;
+        box-shadow: 0 4px 20px rgba(45, 80, 22, 0.12);
+        transition: all 0.3s ease;
     }
     .value-item:hover {
         transform: translateY(-4px);
+        background: #e8f5e9;
+        box-shadow: 0 8px 28px rgba(45, 80, 22, 0.2);
     }
     .value-icon {
         font-size: 2.5rem;
@@ -271,10 +273,21 @@
         font-size: 0.95rem;
     }
     .commitment-section {
-        background: white;
+        background: linear-gradient(135deg, #ffffff 0%, #e8f5e9 50%, #f0f7f4 100%);
         padding: 60px 40px;
         border-radius: 16px;
-        box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        box-shadow: 0 8px 32px rgba(26, 71, 42, 0.15);
+        border: none;
+        position: relative;
+        overflow: hidden;
+    }
+    .commitment-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
     }
     .commitment-content p {
         font-size: 1.2rem;
