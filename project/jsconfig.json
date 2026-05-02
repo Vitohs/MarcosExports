@@ -1,20 +1,14 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "target": "es5",
     "module": "esnext",
-    "baseUrl": "./",
     "moduleResolution": "bundler",
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    },
+    "skipLibCheck": true,
+    "strict": true,
     "lib": [
       "esnext",
       "dom",
-      "dom.iterable",
-      "scripthost"
+      "dom.iterable"
     ]
   }
 }

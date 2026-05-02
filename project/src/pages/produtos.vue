@@ -8,39 +8,48 @@
 
         <section class="services-section">
             <div class="container">
-              <div class="cavaco">
-                    <h2 class="cavaco-title">Produção de Cavaco Premium</h2>
-                    <p class="cavaco-subtitle">
+              <div class="product-card card-orange">
+                    <h2 class="product-title">Produção de Cavaco Premium</h2>
+                    <p class="product-subtitle">
                         Cavacos de eucalipto de alta qualidade para geração de energia e biomassa. Produto versátil com granulometria controlada, ideal para fornos industriais, caldeiras e produção de energia térmica sustentável.
                     </p>
-                    <img class="imgCavaco" src="../assets/cavaco.svg">
+                    <img class="product-image" src="../assets/cavaco.svg">
                 </div>
             </div>
              <div class="container">
-              <div class="cavaco-celulose">
-                    <h2 class="cavaco-celulose-title">Produção de Cavaco Premium para celulose</h2>
-                    <p class="cavaco-celulose-subtitle">
+              <div class="product-card card-teal">
+                    <h2 class="product-title">Produção de Cavaco Premium para celulose</h2>
+                    <p class="product-subtitle">
                         Cavacos de eucalipto com especificações técnicas rigorosas para a indústria de celulose e papel. Granulometria uniforme (15-30mm), baixo teor de casca, umidade controlada e ausência de impurezas, atendendo aos mais altos padrões de qualidade do setor.
                     </p>
-                    <img class="imgCavaco" src="../assets/cavaco-celulose.webp">
+                    <img class="product-image" src="../assets/cavaco-celulose.webp">
                 </div>
             </div>
             <div class="container">
-                <div class="toras">
-                 <h2 class="toras-title">Comércio de toras de Eucalipto</h2>
-                 <p class="toras-subtitle">
+                <div class="product-card card-green">
+                 <h2 class="product-title">Comércio de toras de Eucalipto</h2>
+                 <p class="product-subtitle">
                     Toras de eucalipto selecionadas com diâmetros variados e certificação de origem. Produto versátil para construção civil, móveis, energia renovável e indústria madeireira em geral.
                  </p>
-                <img class="imgToras" src="../assets/toras.svg">
+                <img class="product-image" src="../assets/toras.svg">
               </div>
             </div>
             <div class="container">
-                <div class="pinus">
-                 <h2 class="pinus-title">Comércio de toras de Pinus</h2>
-                 <p class="pinus-subtitle">
+                <div class="product-card card-brown">
+                 <h2 class="product-title">Comércio de toras de Pinus</h2>
+                 <p class="product-subtitle">
                     Toras de pinus de reflorestamento com crescimento controlado e manejo sustentável. Excelente para estruturas, laminação, compensados e projetos que exigem madeira de fibra longa.
                  </p>
-                <img class="imgPinus" src="../assets/pinus.svg">
+                <img class="product-image" src="../assets/pinus.svg">
+              </div>
+            </div>
+            <div class="container">
+                <div class="product-card card-gray">
+                 <h2 class="product-title">Exportação de Açúcar</h2>
+                 <p class="product-subtitle">
+                    Fornecimento de açúcar de alta pureza voltado para o mercado internacional; Garantimos processos rigorosos de controle de qualidade, armazenamento seguro e logística eficiente, atendendo às exigências globais da indústria com máxima excelência.
+                 </p>
+                <img class="product-image" src="../assets/acucar.svg">
               </div>
             </div>
         </section>
@@ -112,7 +121,8 @@
         padding: 80px 0;
         min-height: auto;
     }
-    .cavaco, .cavaco-celulose, .toras, .pinus {
+
+    .product-card {
         background: white;
         border-radius: 16px;
         padding: 40px;
@@ -121,55 +131,45 @@
         transition: all 0.3s ease;
         position: relative;
         overflow: hidden;
+        border: 3px solid transparent;
     }
-    
-    .cavaco {
-        border: 3px solid rgba(249, 115, 22, 0.3);
-    }
-    
-    .cavaco-celulose {
-        border: 3px solid rgba(20, 184, 166, 0.3);
-    }
-    
-    .toras {
-        border: 3px solid rgba(22, 163, 74, 0.3);
-    }
-    
-    .pinus {
-        border: 3px solid rgba(146, 64, 14, 0.3);
-    }
-    
-    .cavaco:hover {
+    .product-card:hover {
         transform: translateY(-8px);
-        box-shadow: 0 16px 48px rgba(249, 115, 22, 0.2);
+    }
+    
+    .card-orange { border-color: rgba(249, 115, 22, 0.3); }
+    .card-orange:hover {
         border-left-color: rgba(249, 115, 22, 0.8);
     }
     
-    .cavaco-celulose:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 16px 48px rgba(20, 184, 166, 0.2);
+    .card-teal { border-color: rgba(20, 184, 166, 0.3); }
+    .card-teal:hover {
         border-left-color: rgba(20, 184, 166, 0.8);
     }
     
-    .toras:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 16px 48px rgba(22, 163, 74, 0.2);
+    .card-green { border-color: rgba(22, 163, 74, 0.3); }
+    .card-green:hover {
         border-left-color: rgba(22, 163, 74, 0.8);
     }
     
-    .pinus:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 16px 48px rgba(146, 64, 14, 0.2);
+    .card-brown { border-color: rgba(146, 64, 14, 0.3); }
+    .card-brown:hover {
         border-left-color: rgba(146, 64, 14, 0.8);
     }
-    .cavaco-title, .cavaco-celulose-title, .toras-title, .pinus-title {
+
+    .card-gray { border-color: rgba(100, 116, 139, 0.3); }
+    .card-gray:hover {
+        border-left-color: rgba(100, 116, 139, 0.8);
+    }
+
+    .product-title {
         font-size: 2.5rem;
         margin-bottom: 20px;
         color: #003566;
         font-weight: 700;
         line-height: 1.2;
     }
-    .cavaco-subtitle, .cavaco-celulose-subtitle, .toras-subtitle, .pinus-subtitle {
+    .product-subtitle {
         font-size: 1.2rem;
         color: #5a6c7d;
         margin-bottom: 30px;
@@ -178,16 +178,18 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .imgCavaco, .imgToras, .imgPinus {
+    .product-image {
         max-width: 600px;
+        width: 100%;
         height: auto;
         margin-top: 20px;
         border-radius: 12px;
         transition: transform 0.3s ease;
     }
-    .imgCavaco:hover, .imgToras:hover, .imgPinus:hover {
+    .product-image:hover {
         transform: scale(1.05);
     }
+
     @media (max-width: 1024px) {
         .banner-title {
             font-size: 2.5rem;
@@ -197,7 +199,7 @@
             font-size: 1.3rem;
         }
 
-        .cavaco-title, .cavaco-celulose-title, .toras-title, .pinus-title {
+        .product-title {
             font-size: 2.2rem;
         }
 
@@ -227,21 +229,21 @@
         .container {
             padding: 20px 10px;
         }
-        .cavaco, .cavaco-celulose, .toras, .pinus {
+        .product-card {
             padding: 30px 20px;
             margin-bottom: 30px;
             border-radius: 12px;
         }
-        .cavaco-title, .cavaco-celulose-title, .toras-title, .pinus-title {
+        .product-title {
             font-size: 1.8rem;
             margin-bottom: 15px;
         }
-        .cavaco-subtitle, .cavaco-celulose-subtitle, .toras-subtitle, .pinus-subtitle {
+        .product-subtitle {
             font-size: 1rem;
             margin-bottom: 20px;
             line-height: 1.5;
         }
-        .imgCavaco, .imgToras, .imgPinus {
+        .product-image {
             max-width: 350px;
             margin-top: 15px;
         }
@@ -260,19 +262,19 @@
             font-size: 0.95rem;
         }
 
-        .cavaco, .cavaco-celulose, .toras, .pinus {
+        .product-card {
             padding: 25px 15px;
         }
 
-        .cavaco-title, .cavaco-celulose-title, .toras-title, .pinus-title {
+        .product-title {
             font-size: 1.5rem;
         }
 
-        .cavaco-subtitle, .cavaco-celulose-subtitle, .toras-subtitle, .pinus-subtitle {
+        .product-subtitle {
             font-size: 0.9rem;
         }
 
-        .imgCavaco, .imgToras, .imgPinus {
+        .product-image {
             max-width: 200px;
         }
 

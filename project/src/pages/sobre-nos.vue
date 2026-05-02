@@ -35,6 +35,11 @@
                         <p>Produção especializada de cavaco para celulose e biomassa para queima,
                         atendendo às especificações técnicas mais rigorosas.</p>
                     </div>
+
+                    <div class="service-card">
+                        <h3>Açúcar</h3>
+                        <p>Exportação de açúcar de alta qualidade para o mercado internacional, garantimos pureza e logística de alta perfomance.</p>
+                    </div>
                 </div>
 
                 <div class="market-reach">
@@ -180,7 +185,7 @@
     }
     .services-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         gap: 40px;
         margin-bottom: 80px;
     }
