@@ -2,52 +2,52 @@
     <div class="page-wrapper">
         <div class="banner">
             <img class="image" src="../assets/eucalipto.svg">
-            <h1 class="banner-title">QUALIDADE EM PRIMEIRO LUGAR</h1>
-            <p class="banner-subtitle">Qualidade e sustentabilidade em cada produto. Conheça nossa linha completa!</p>
+            <h1 class="banner-title">{{ $t('products.banner.title') }}</h1>
+            <p class="banner-subtitle">{{ $t('products.banner.subtitle') }}</p>
         </div>
 
         <section class="services-section">
             <div class="container">
               <div class="product-card card-orange">
-                    <h2 class="product-title">Produção de Cavaco Premium</h2>
+                    <h2 class="product-title">{{ $t('products.items.cavaco.title') }}</h2>
                     <p class="product-subtitle">
-                        Cavacos de eucalipto de alta qualidade para geração de energia e biomassa. Produto versátil com granulometria controlada, ideal para fornos industriais, caldeiras e produção de energia térmica sustentável.
+                        {{ $t('products.items.cavaco.description') }}
                     </p>
                     <img class="product-image" src="../assets/cavaco.svg">
                 </div>
             </div>
              <div class="container">
               <div class="product-card card-teal">
-                    <h2 class="product-title">Produção de Cavaco Premium para celulose</h2>
+                    <h2 class="product-title">{{ $t('products.items.cavacocelulose.title') }}</h2>
                     <p class="product-subtitle">
-                        Cavacos de eucalipto com especificações técnicas rigorosas para a indústria de celulose e papel. Granulometria uniforme (15-30mm), baixo teor de casca, umidade controlada e ausência de impurezas, atendendo aos mais altos padrões de qualidade do setor.
+                        {{ $t('products.items.cavacocelulose.description') }}
                     </p>
                     <img class="product-image" src="../assets/cavaco-celulose.webp">
                 </div>
             </div>
             <div class="container">
                 <div class="product-card card-green">
-                 <h2 class="product-title">Comércio de toras de Eucalipto</h2>
+                 <h2 class="product-title">{{ $t('products.items.eucalipto.title') }}</h2>
                  <p class="product-subtitle">
-                    Toras de eucalipto selecionadas com diâmetros variados e certificação de origem. Produto versátil para construção civil, móveis, energia renovável e indústria madeireira em geral.
+                    {{ $t('products.items.eucalipto.description') }}
                  </p>
                 <img class="product-image" src="../assets/toras.svg">
               </div>
             </div>
             <div class="container">
                 <div class="product-card card-brown">
-                 <h2 class="product-title">Comércio de toras de Pinus</h2>
+                 <h2 class="product-title">{{ $t('products.items.pinus.title') }}</h2>
                  <p class="product-subtitle">
-                    Toras de pinus de reflorestamento com crescimento controlado e manejo sustentável. Excelente para estruturas, laminação, compensados e projetos que exigem madeira de fibra longa.
+                    {{ $t('products.items.pinus.description') }}
                  </p>
                 <img class="product-image" src="../assets/pinus.svg">
               </div>
             </div>
             <div class="container">
                 <div class="product-card card-gray">
-                 <h2 class="product-title">Exportação de Açúcar</h2>
+                 <h2 class="product-title">{{ $t('products.items.acucar.title') }}</h2>
                  <p class="product-subtitle">
-                    Fornecimento de açúcar de alta pureza voltado para o mercado internacional; Garantimos processos rigorosos de controle de qualidade, armazenamento seguro e logística eficiente, atendendo às exigências globais da indústria com máxima excelência.
+                    {{ $t('products.items.acucar.description') }}
                  </p>
                 <img class="product-image" src="../assets/acucar.svg">
               </div>

@@ -6,19 +6,19 @@
     <div class="parte-inferior">
         <div class="footer-columns">
           <ul>
-            <li class="footer-title">Nos conheça melhor</li>
-            <li><a href="/sobre-nos">Sobre a empresa</a></li>
+            <li class="footer-title">{{ $t('footer.about') }}</li>
+            <li><a href="/sobre-nos">{{ $t('footer.company') }}</a></li>
           </ul>
           <ul>
-            <li class="footer-title">Conheça nosso trabalho</li>
-            <li><a href="/produtos">Nossos produtos</a></li>
+            <li class="footer-title">{{ $t('footer.work') }}</li>
+            <li><a href="/produtos">{{ $t('footer.ourProducts') }}</a></li>
           </ul>
           <ul>
-            <li class="footer-title">Entre em contato conosco</li>
-            <li>Whatsapp:<p>14 99883-0070</p></li>
+            <li class="footer-title">{{ $t('footer.contact') }}</li>
+            <li>{{ $t('footer.whatsapp') }}<p>{{ $t('footer.phone') }}</p></li>
           </ul>
         </div>
-        <p class="direitos">© 2025 Todos os direitos reservados</p>
+        <p class="direitos">{{ $t('footer.rights') }}</p>
     </div>
   </footer>
 </template>

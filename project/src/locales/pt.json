@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre Nós",
+    "products": "Produtos"
+  },
+  "page": {
+    "title": "Somos a Marcos Exports",
+    "subtitle": "Sua solução completa em produtos florestais",
+    "description": "Especializados na comercialização de tora de eucalipto e pinus, produção de cavaco para celulose e biomassa para queima"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "description": "Oferecemos soluções completas para o setor florestal, desde o fornecimento de matéria-prima até serviços logísticos personalizados. Atuamos com excelência no atendimento ao mercado interno e externo, garantindo qualidade, sustentabilidade e agilidade em cada etapa do processo."
+  },
+  "market": {
+    "title": "Atuação Nacional e Internacional",
+    "description": "Atendemos o mercado interno e exportação através dos principais portos do país",
+    "button": "Conheça Nossa História"
+  },
+  "buttons": {
+    "products": "Produtos",
+    "history": "Conheça Nossa História"
+  },
+  "footer": {
+    "about": "Nos conheça melhor",
+    "company": "Sobre a empresa",
+    "work": "Conheça nosso trabalho",
+    "ourProducts": "Nossos produtos",
+    "contact": "Entre em contato conosco",
+    "whatsapp": "Whatsapp:",
+    "phone": "14 99883-0070",
+    "rights": "© 2025 Todos os direitos reservados"
+  },
+  "products": {
+    "banner": {
+      "title": "QUALIDADE EM PRIMEIRO LUGAR",
+      "subtitle": "Qualidade e sustentabilidade em cada produto. Conheça nossa linha completa!"
+    },
+    "items": {
+      "cavaco": {
+        "title": "Produção de Cavaco Premium",
+        "description": "Cavacos de eucalipto de alta qualidade para geração de energia e biomassa. Produto versátil com granulometria controlada, ideal para fornos industriais, caldeiras e produção de energia térmica sustentável."
+      },
+      "cavacocelulose": {
+        "title": "Produção de Cavaco Premium para celulose",
+        "description": "Cavacos de eucalipto com especificações técnicas rigorosas para a indústria de celulose e papel. Granulometria uniforme (15-30mm), baixo teor de casca, umidade controlada e ausência de impurezas, atendendo aos mais altos padrões de qualidade do setor."
+      },
+      "eucalipto": {
+        "title": "Comércio de toras de Eucalipto",
+        "description": "Toras de eucalipto selecionadas com diâmetros variados e certificação de origem. Produto versátil para construção civil, móveis, energia renovável e indústria madeireira em geral."
+      },
+      "pinus": {
+        "title": "Comércio de toras de Pinus",
+        "description": "Toras de pinus de reflorestamento com crescimento controlado e manejo sustentável. Excelente para estruturas, laminação, compensados e projetos que exigem madeira de fibra longa."
+      },
+      "acucar": {
+        "title": "Exportação de Açúcar",
+        "description": "Fornecimento de açúcar de alta pureza voltado para o mercado internacional; Garantimos processos rigorosos de controle de qualidade, armazenamento seguro e logística eficiente, atendendo às exigências globais da indústria com máxima excelência."
+      }
+    }
+  },
+  "aboutus": {
+    "banner": {
+      "title": "SOMOS REFERÊNCIA NO MERCADO",
+      "subtitle": "Excelência em produtos florestais desde o plantio até a exportação"
+    },
+    "whoWe": {
+      "title": "Quem Somos",
+      "description": "Somos uma empresa especializada no setor florestal, com foco na comercialização sustentável de produtos madeireiros de alta qualidade. Nossa experiência e compromisso com a excelência nos posicionam como referência no mercado nacional e internacional."
+    },
+    "services": {
+      "eucalipto": {
+        "title": "Toras de Eucalipto",
+        "description": "Comercialização de toras de eucalipto de diferentes diâmetros e comprimentos, provenientes de florestas manejadas de forma sustentável."
+      },
+      "pinus": {
+        "title": "Toras de Pinus",
+        "description": "Fornecimento de toras de pinus de reflorestamento com qualidade superior para diversos segmentos da indústria madeireira."
+      },
+      "cavaco": {
+        "title": "Cavaco & Biomassa",
+        "description": "Produção especializada de cavaco para celulose e biomassa para queima, atendendo às especificações técnicas mais rigorosas."
+      },
+      "acucar": {
+        "title": "Açúcar",
+        "description": "Exportação de açúcar de alta qualidade para o mercado internacional, garantimos pureza e logística de alta perfomance."
+      }
+    },
+    "market": {
+      "title": "Alcance de Mercado",
+      "national": {
+        "title": "Mercado Nacional",
+        "description": "Atendemos todo o território brasileiro com logística eficiente e entrega pontual para nossos clientes."
+      },
+      "export": {
+        "title": "Exportação",
+        "description": "Exportamos através dos principais portos do país, levando a qualidade brasileira para mercados internacionais."
+      }
+    },
+    "values": {
+      "title": "Nossos Valores",
+      "quality": {
+        "title": "Qualidade",
+        "description": "Produtos com certificação e controle rigoroso em todas as etapas do processo."
+      },
+      "sustainability": {
+        "title": "Sustentabilidade",
+        "description": "Manejo responsável e práticas ambientalmente corretas em todos os nossos processos."
+      },
+      "reliability": {
+        "title": "Confiabilidade",
+        "description": "Parcerias sólidas baseadas na transparência e cumprimento de prazos."
+      },
+      "innovation": {
+        "title": "Inovação",
+        "description": "Investimento contínuo em tecnologia e melhoria dos nossos produtos e serviços."
+      }
+    },
+    "commitment": {
+      "title": "Nosso Compromisso",
+      "text1": "Trabalhamos com o compromisso de fornecer produtos florestais de máxima qualidade, respeitando o meio ambiente e contribuindo para o desenvolvimento sustentável do setor. Nossa missão é ser o parceiro de confiança para empresas que buscam excelência em produtos madeireiros.",
+      "text2": "Com uma logística eficiente e conhecimento profundo do mercado, garantimos que nossos clientes recebam produtos que atendem às mais altas especificações técnicas, seja para o mercado interno ou para exportação."
+    }
+  }
+}

@@ -13,6 +13,8 @@ declare module 'vue' {
   export interface GlobalComponents {
     FooterApp: typeof import('./src/components/footerApp.vue')['default']
     HeaderApp: typeof import('./src/components/headerApp.vue')['default']
+    LanguageSwitcher: typeof import('./src/components/languageSwitcher.vue')['default']
+    LanguageSwitcherFixed: typeof import('./src/components/languageSwitcherFixed.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

@@ -13,24 +13,23 @@
 
     <section class="hero-section">
       <div class="container">
-        <h1>Somos a Marcos Exports</h1>
-        <p class="hero-subtitle">Sua solução completa em produtos florestais</p>
+        <h1>{{ $t('page.title') }}</h1>
+        <p class="hero-subtitle">{{ $t('page.subtitle') }}</p>
         <p class="hero-description">
-          Especializados na comercialização de tora de eucalipto e pinus,
-          produção de cavaco para celulose e biomassa para queima
+          {{ $t('page.description') }}
         </p>
       </div>
     </section>
 
     <section class="services-section">
       <div class="container">
-          <h2>Nossos Serviços</h2>
+          <h2>{{ $t('services.title') }}</h2>
           <p class="services-description">
-            Oferecemos soluções completas para o setor florestal, desde o fornecimento de matéria-prima até serviços logísticos personalizados. Atuamos com excelência no atendimento ao mercado interno e externo, garantindo qualidade, sustentabilidade e agilidade em cada etapa do processo.
+            {{ $t('services.description') }}
           </p>
           <div class="services-buttons">
             <a href="/produtos">
-              <button class="cta-button">Produtos</button>
+              <button class="cta-button">{{ $t('buttons.products') }}</button>
             </a>
           </div>
       </div>
@@ -38,10 +37,10 @@
 
     <section class="market-section">
       <div class="container">
-        <h2>Atuação Nacional e Internacional</h2>
-        <p>Atendemos o mercado interno e exportação através dos principais portos do país</p>
+        <h2>{{ $t('market.title') }}</h2>
+        <p>{{ $t('market.description') }}</p>
         <a href="sobre-nos">
-          <button class="cta-button">Conheça Nossa História</button>
+          <button class="cta-button">{{ $t('market.button') }}</button>
         </a>
       </div>
     </section>

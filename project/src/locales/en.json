@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products"
+  },
+  "page": {
+    "title": "We are Marcos Exports",
+    "subtitle": "Your complete solution in forest products",
+    "description": "Specialized in the commercialization of eucalyptus and pine logs, wood chip production for pulp and biomass for burning"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We offer complete solutions for the forestry sector, from supplying raw materials to personalized logistics services. We operate with excellence in serving the domestic and foreign markets, guaranteeing quality, sustainability and agility at each stage of the process."
+  },
+  "market": {
+    "title": "National and International Operations",
+    "description": "We serve the domestic market and exports through the main ports in the country",
+    "button": "Learn About Our History"
+  },
+  "buttons": {
+    "products": "Products",
+    "history": "Learn About Our History"
+  },
+  "footer": {
+    "about": "Get to know us better",
+    "company": "About the company",
+    "work": "Explore our work",
+    "ourProducts": "Our products",
+    "contact": "Contact us",
+    "whatsapp": "Whatsapp:",
+    "phone": "14 99883-0070",
+    "rights": "© 2025 All rights reserved"
+  },
+  "products": {
+    "banner": {
+      "title": "QUALITY FIRST",
+      "subtitle": "Quality and sustainability in every product. Learn about our complete line!"
+    },
+    "items": {
+      "cavaco": {
+        "title": "Premium Wood Chip Production",
+        "description": "High-quality eucalyptus wood chips for energy generation and biomass. Versatile product with controlled granulometry, ideal for industrial furnaces, boilers and sustainable thermal energy production."
+      },
+      "cavacocelulose": {
+        "title": "Premium Wood Chip Production for Pulp",
+        "description": "Eucalyptus wood chips with rigorous technical specifications for the pulp and paper industry. Uniform granulometry (15-30mm), low bark content, controlled moisture and absence of impurities, meeting the highest quality standards in the sector."
+      },
+      "eucalipto": {
+        "title": "Eucalyptus Log Trading",
+        "description": "Selected eucalyptus logs with varied diameters and origin certification. Versatile product for civil construction, furniture, renewable energy and general timber industry."
+      },
+      "pinus": {
+        "title": "Pine Log Trading",
+        "description": "Reforestation pine logs with controlled growth and sustainable management. Excellent for structures, lamination, plywood and projects requiring long-fiber wood."
+      },
+      "acucar": {
+        "title": "Sugar Export",
+        "description": "Supply of high-purity sugar aimed at the international market; We guarantee rigorous quality control processes, safe storage and efficient logistics, meeting global industry requirements with maximum excellence."
+      }
+    }
+  },
+  "aboutus": {
+    "banner": {
+      "title": "WE ARE A MARKET REFERENCE",
+      "subtitle": "Excellence in forest products from planting to export"
+    },
+    "whoWe": {
+      "title": "Who We Are",
+      "description": "We are a company specialized in the forestry sector, focused on the sustainable commercialization of high-quality timber products. Our experience and commitment to excellence position us as a reference in the national and international markets."
+    },
+    "services": {
+      "eucalipto": {
+        "title": "Eucalyptus Logs",
+        "description": "Commercialization of eucalyptus logs of different diameters and lengths, from sustainably managed forests."
+      },
+      "pinus": {
+        "title": "Pine Logs",
+        "description": "Supply of superior quality reforestation pine logs for various segments of the timber industry."
+      },
+      "cavaco": {
+        "title": "Wood Chips & Biomass",
+        "description": "Specialized production of wood chips for pulp and biomass for burning, meeting the most rigorous technical specifications."
+      },
+      "acucar": {
+        "title": "Sugar",
+        "description": "Export of high quality sugar to the international market, we guarantee purity and high performance logistics."
+      }
+    },
+    "market": {
+      "title": "Market Reach",
+      "national": {
+        "title": "Domestic Market",
+        "description": "We serve all Brazilian territory with efficient logistics and punctual delivery to our customers."
+      },
+      "export": {
+        "title": "Export",
+        "description": "We export through the main ports in the country, bringing Brazilian quality to international markets."
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality",
+        "description": "Products with certification and rigorous control at all stages of the process."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Responsible management and environmentally correct practices in all our processes."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Solid partnerships based on transparency and meeting deadlines."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Continuous investment in technology and improvement of our products and services."
+      }
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "text1": "We work with the commitment to provide forest products of the highest quality, respecting the environment and contributing to the sustainable development of the sector. Our mission is to be the trusted partner for companies seeking excellence in timber products.",
+      "text2": "With efficient logistics and deep market knowledge, we guarantee that our customers receive products that meet the highest technical specifications, whether for the domestic market or for export."
+    }
+  }
+}

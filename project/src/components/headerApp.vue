@@ -8,16 +8,18 @@
       </button>
       <nav :class="{'open': menuOpen || !isMobile}">
         <ul>
-          <li><a href="/">Início</a></li>
-          <li><a href="/sobre-nos">Sobre Nós</a></li>
-          <li><a href="/produtos">Produtos</a></li>
+          <li><a href="/">{{ $t('nav.home') }}</a></li>
+          <li><a href="/sobre-nos">{{ $t('nav.about') }}</a></li>
+          <li><a href="/produtos">{{ $t('nav.products') }}</a></li>
         </ul>
       </nav>
+      <languageSwitcher class="language-selector-desktop" />
   </header>
 </template>
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
+import languageSwitcher from './languageSwitcher.vue';
 
 const menuOpen = ref(false);
 const isMobile = ref(false);
@@ -57,6 +59,11 @@ onUnmounted(() => {
     width: auto;
     padding-left: 20px;
     object-fit: contain;
+  }
+  .language-selector-desktop {
+    margin-left: auto;
+    padding-right: 20px;
+    color: white;
   }
   nav ul {
     display: flex;
@@ -127,14 +134,22 @@ onUnmounted(() => {
     box-sizing: border-box;
     position: relative;
     justify-content: space-between;
+    padding-right: 0;
+    gap: 8px;
   }
   .logo {
     padding-left: 10px;
-    width: 230px;
+    width: 180px;
+    min-width: 180px;
+  }
+  .language-selector-desktop {
+    display: none;
   }
   .menu-toggle {
     display: flex;
-    margin-right: 10px;
+    margin-right: 8px;
+    min-width: 40px;
+    flex-shrink: 0;
   }
   nav {
     position: absolute;

@@ -2,97 +2,85 @@
     <div class="page-wrapper">
         <div class="banner">
             <img class="image" src="../assets/fundo.svg">
-            <h1 class="banner-title">SOMOS REFERÊNCIA NO MERCADO</h1>
-            <p class="banner-subtitle">Excelência em produtos florestais desde o plantio até a exportação</p>
+            <h1 class="banner-title">{{ $t('aboutus.banner.title') }}</h1>
+            <p class="banner-subtitle">{{ $t('aboutus.banner.subtitle') }}</p>
         </div>
 
         <section class="about-section">
             <div class="container">
                 <div class="company-intro">
-                    <h2 class="section-title">Quem Somos</h2>
+                    <h2 class="section-title">{{ $t('aboutus.whoWe.title') }}</h2>
                     <p class="intro-text">
-                        Somos uma empresa especializada no setor florestal, com foco na comercialização sustentável
-                        de produtos madeireiros de alta qualidade. Nossa experiência e compromisso com a excelência
-                        nos posicionam como referência no mercado nacional e internacional.
+                        {{ $t('aboutus.whoWe.description') }}
                     </p>
                 </div>
 
                 <div class="services-grid">
                     <div class="service-card">
-                        <h3>Toras de Eucalipto</h3>
-                        <p>Comercialização de toras de eucalipto de diferentes diâmetros e comprimentos,
-                        provenientes de florestas manejadas de forma sustentável.</p>
+                        <h3>{{ $t('aboutus.services.eucalipto.title') }}</h3>
+                        <p>{{ $t('aboutus.services.eucalipto.description') }}</p>
                     </div>
 
                     <div class="service-card">
-                        <h3>Toras de Pinus</h3>
-                        <p>Fornecimento de toras de pinus de reflorestamento com qualidade superior
-                        para diversos segmentos da indústria madeireira.</p>
+                        <h3>{{ $t('aboutus.services.pinus.title') }}</h3>
+                        <p>{{ $t('aboutus.services.pinus.description') }}</p>
                     </div>
 
                     <div class="service-card">
-                        <h3>Cavaco & Biomassa</h3>
-                        <p>Produção especializada de cavaco para celulose e biomassa para queima,
-                        atendendo às especificações técnicas mais rigorosas.</p>
+                        <h3>{{ $t('aboutus.services.cavaco.title') }}</h3>
+                        <p>{{ $t('aboutus.services.cavaco.description') }}</p>
                     </div>
 
                     <div class="service-card">
-                        <h3>Açúcar</h3>
-                        <p>Exportação de açúcar de alta qualidade para o mercado internacional, garantimos pureza e logística de alta perfomance.</p>
+                        <h3>{{ $t('aboutus.services.acucar.title') }}</h3>
+                        <p>{{ $t('aboutus.services.acucar.description') }}</p>
                     </div>
                 </div>
 
                 <div class="market-reach">
-                    <h2 class="section-title">Alcance de Mercado</h2>
+                    <h2 class="section-title">{{ $t('aboutus.market.title') }}</h2>
                     <div class="market-grid">
                         <div class="market-card">
-                            <h4>Mercado Nacional</h4>
-                            <p>Atendemos todo o território brasileiro com logística eficiente
-                            e entrega pontual para nossos clientes.</p>
+                            <h4>{{ $t('aboutus.market.national.title') }}</h4>
+                            <p>{{ $t('aboutus.market.national.description') }}</p>
                         </div>
                         <div class="market-card">
-                            <h4>Exportação</h4>
-                            <p>Exportamos através dos principais portos do país, levando
-                            a qualidade brasileira para mercados internacionais.</p>
+                            <h4>{{ $t('aboutus.market.export.title') }}</h4>
+                            <p>{{ $t('aboutus.market.export.description') }}</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="values-section">
-                    <h2 class="section-title">Nossos Valores</h2>
+                    <h2 class="section-title">{{ $t('aboutus.values.title') }}</h2>
                     <div class="values-grid">
                         <div class="value-item">
-                            <h4>Qualidade</h4>
-                            <p>Produtos com certificação e controle rigoroso em todas as etapas do processo.</p>
+                            <h4>{{ $t('aboutus.values.quality.title') }}</h4>
+                            <p>{{ $t('aboutus.values.quality.description') }}</p>
                         </div>
                         <div class="value-item">
-                            <h4>Sustentabilidade</h4>
-                            <p>Manejo responsável e práticas ambientalmente corretas em todos os nossos processos.</p>
+                            <h4>{{ $t('aboutus.values.sustainability.title') }}</h4>
+                            <p>{{ $t('aboutus.values.sustainability.description') }}</p>
                         </div>
                         <div class="value-item">
-                            <h4>Confiabilidade</h4>
-                            <p>Parcerias sólidas baseadas na transparência e cumprimento de prazos.</p>
+                            <h4>{{ $t('aboutus.values.reliability.title') }}</h4>
+                            <p>{{ $t('aboutus.values.reliability.description') }}</p>
                         </div>
                         <div class="value-item">
-                            <h4>Inovação</h4>
-                            <p>Investimento contínuo em tecnologia e melhoria dos nossos produtos e serviços.</p>
+                            <h4>{{ $t('aboutus.values.innovation.title') }}</h4>
+                            <p>{{ $t('aboutus.values.innovation.description') }}</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="commitment-section">
-                    <h2 class="section-title">Nosso Compromisso</h2>
+                    <h2 class="section-title">{{ $t('aboutus.commitment.title') }}</h2>
                     <div class="commitment-content">
                         <p>
-                            Trabalhamos com o compromisso de fornecer produtos florestais de máxima qualidade,
-                            respeitando o meio ambiente e contribuindo para o desenvolvimento sustentável do setor.
-                            Nossa missão é ser o parceiro de confiança para empresas que buscam excelência
-                            em produtos madeireiros.
+                            {{ $t('aboutus.commitment.text1') }}
                         </p>
                         <p>
-                            Com uma logística eficiente e conhecimento profundo do mercado, garantimos
-                            que nossos clientes recebam produtos que atendem às mais altas especificações técnicas,
-                            seja para o mercado interno ou para exportação.
+                            {{ $t('aboutus.commitment.text2') }}
                         </p>
                     </div>
                 </div>
